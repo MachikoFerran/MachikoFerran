@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="assets/CSS/help.css">
+</head>
+<body>
+<header>
+    <img src="assets/images/cheese.jpg" alt="Cheese" width="120" height="150" class="grid-25" id="cheese">
+    <h1>The Magical World of Cheese</h1>
+
+    <nav>
+        <ul>
+            <li><a href="#">The History of Cheese</a></li>
+            <li><a href="#">My Favourite Cheese</a></li>
+            <li><a href="#">The Best Cheese Jokes</a></li>
+            <li><a href="#">Help with Cheese</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <h2>Help with Cheese</h2>
+
+
+    <form>
+        <fieldset>
+            <legend>Please enter your credentials:</legend>
+            <label for="name">Name:</label>
+            <input type="text" name="name" value="" id="name" maxlength="15" placeholder="Name" required autocomplete="on">
+            <br>
+            <label for="email">Email:</label>
+            <input type="text" name="email" value="" id="email" placeholder="Email" required autocomplete="on">
+            <br>
+            <label for="cheese" class="favourite">Favourite Cheese</label>
+            <div id="radio">
+            <input type="radio" name="cheese" value="Feta">
+                <label for="feta">Feta</label>
+            <input type="radio" name="cheese" value="Gouda">
+                <label for="gouda">Gouda</label>
+            <input type="radio" name="cheese" value="Other">
+                <label for="other">Other</label>
+            </div>
+            <br>
+            <label for="problem" id="problem">What is your cheese problem?</label>
+            <textarea name="problem" id="#" cols="30" rows="10"></textarea>
+            <br>
+            <input type="submit" value="Submit">
+
+        </fieldset>
+    </form>
+</main>
+
+<footer>
+    <hr id="line">
+    <p>(c) The Mice People 2016</p>
+
+
+
+</footer>
+
+</body>
+</html>

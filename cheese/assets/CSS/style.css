@@ -1,0 +1,61 @@
+body {
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+}
+
+body>section{
+    margin-bottom: 5px;
+}
+
+nav > ul {
+    list-style-type: none;
+    margin: 15px;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav > ul > li {
+    float: left;
+    text-align: center;
+    padding: 0;
+
+}
+
+nav > ul > li a {
+    display: grid;
+    border: 1px solid black;
+    text-decoration: none;
+    color: #000000;
+}
+
+li a:hover{
+    color: red;
+    transition: 2s;
+}
+
+
+
+#cheese{
+    size: 15px;
+    opacity: 1;
+    float: left;
+
+}
+
+footer{
+    text-align: center;
+    padding: 0;
+}
+
+footer p{
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New';
+}
+
+#line{
+    margin-top: 5px;
+    border-width: 3px;
+}
